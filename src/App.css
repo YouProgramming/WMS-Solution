@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background-color: #000000;
+    /* margin-bottom: 10000px; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.Main-content-container{
+    margin: 22px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #2e2e2e;
+}
+ .link-button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
+  }
+/*
+.nav-span-logout{
+
+} */

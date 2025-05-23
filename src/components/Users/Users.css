@@ -1,0 +1,75 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    flex: 1;
+}
+.user-item:hover{
+    cursor: pointer;
+    background-color: #2b2929;
+}
+.user-pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 16px;
+}
+
+.update, .delete{
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 800;
+}
+.update{
+    background: #25f748;
+    margin-right: 10px;
+}
+.delete{
+    background-color: red;
+}
+.update:hover, .delete:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Title-and-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-new-icon{
+    background-color: #25f748;
+    color: white;
+}
+.add-new-link{
+    background-color: #25f748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}

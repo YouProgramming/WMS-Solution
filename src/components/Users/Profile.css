@@ -1,0 +1,48 @@
+.Profile-Details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.Update-Button, .cancel-button{
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Update-Button{
+    background: #25f748;
+}
+.cancel-button{
+    background-color: red;
+}
+.Update-Button:hover, .cancel-button:hover{
+    opacity: 0.8;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif; */
+}
+  
+.form-container label {
+    font-weight: bold;
+}
+  
+.form-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  

@@ -24,4 +24,4 @@ const CategorySlice = createSlice({
     }
 });
 export default CategorySlice.reducer;
-export const {} = CategorySlice.actions;
+// export const {} = CategorySlice.actions;

@@ -25,7 +25,7 @@ This is a personal learning project and is not intended for production use. The 
 
 - Node.js (latest LTS version recommended)
 - npm or yarn package manager
-- ASP.NET Core 6.0 or later (for running the REST API backend)
+- ASP.NET Core 8.0(for running the REST API backend)
 
 ### Backend Setup
 

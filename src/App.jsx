@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import PageLayout from './components/AllScreensComponents/PageLayout';
 import { Receive } from './components/Receive/Receive';
 import { Issue } from './components/Issue/Issue';
-import Logs from './components/Logs/cmpLogs';
+import Logs from './components/LogedActions/cmpLogs';
 import Users from "./components/Users/cmpUsers.jsx"
 import Profile from './components/Users/Profile.jsx';
 import EditUser from './components/Users/EditUser.jsx';
@@ -17,7 +17,7 @@ import AddEditReceiving from './components/Receive/AddEditReceiving.jsx';
 import ReceivingDetails from './components/Receive/ReceivingDetails.jsx';
 import IssueDetails from './components/Issue/IssueDetails.jsx';
 import AddEditIssue from './components/Issue/AddEditIssue.jsx';
-import LogDetails from './components/Logs/LogDetails.jsx';
+import LogDetails from './components/LogedActions/LogDetails.jsx';
 import Login from './components/Users/Login.jsx';
 import {StockMovement} from './components/StockMovementsFolder/StockMovement.jsx';
 // import {Profile} from "./components/Users/Profile"
